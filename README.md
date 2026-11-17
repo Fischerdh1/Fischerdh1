@@ -1,36 +1,16 @@
 # Fischer Heltemes
 
-**Network Operations · Cloud Infrastructure · Research Software**
+I work in network operations and build Python tools for earnings research. I'm interested in Linux, network security, and how to make technical work easy to verify.
 
-Network operations specialist developing skills in Linux, cloud infrastructure, and Python automation. I’m interested in reliable systems and software that makes complex research easier to inspect and reproduce.
+## Featured project
 
-## Current project
+### [HELTEMES Research Lab](https://github.com/Fischerdh1/heltemes-research-lab)
 
-### Heltemes Capital — QES
+A command-line tool that checks whether captured evidence was available by a research cutoff and whether the files still match their recorded SHA-256 hashes. The included fictional earnings packet shows how the audit handles evidence that arrived on time, evidence that arrived late, and evidence that was unavailable.
 
-A personal earnings-research and software project focused on evidence provenance, structured review workflows, and forecast evaluation.
+[Run the example](https://github.com/Fischerdh1/heltemes-research-lab#quick-start) · [See the tests](https://github.com/Fischerdh1/heltemes-research-lab/actions/workflows/verify.yml)
 
-Engineering work includes:
+## What I'm working on
 
-- **Research explorer:** a Python and SQLite application with a JavaScript interface for navigating research records.
-- **Evidence integrity:** source fingerprints, explicit missing-data handling, and preservation of original records.
-- **Workflow verification:** offline simulations and negative-case tests for review sequencing and altered or missing inputs.
-- **Research diagnostics:** tools for comparing documented forecasts and outcomes while keeping limitations visible.
-
-The working research repository is private. Offline demonstrations use fictional fixtures and do not establish live model isolation or investment performance.
-
-## Technical focus
-
-| Area | Focus |
-| --- | --- |
-| Infrastructure | Networking, Linux, and cloud fundamentals |
-| Development | Python, SQL/SQLite, JavaScript, and Git |
-| Engineering practice | Testing, documentation, reproducibility, and source traceability |
-
-## Currently learning
-
-Computer science through CS50, Linux systems, and automation for infrastructure and research workflows.
-
----
-
-*Traceable evidence. Reproducible work. Clear limitations.*
+- **Network reliability.** I use disposable Linux environments to test firewall rules, monitoring, and service recovery after restarts.
+- **Research records.** At HELTEMES Capital, I work on tracing earnings research back to its sources and keeping original forecasts available for later evaluation.
